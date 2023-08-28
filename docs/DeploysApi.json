@@ -1,0 +1,87 @@
+
+[{
+    "methodType":"POST",
+    "methodName":"createdeploys",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Deploys"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":["let deploys = new TempApi.Deploys();"],
+    "modelNames":["deploys"],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.createdeploys( deploys, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"DELETE",
+    "methodName":"deletedeploys",
+    "returnType":{
+
+      "primitive":"true",
+      "type":"null"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.deletedeploys( deploysId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');/**nextFunction*/}});"
+  },{
+    "methodType":"GETALL",
+    "methodName":"getAlldeploys",
+    "returnType":{
+      "primitive":false,
+      "jsType":"Array",
+      "modelName":"[Deploys]"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.getAlldeploys((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"GETBYPARAMS",
+    "methodName":"getByParamsdeploys",
+    "returnType":{
+      "primitive":false,
+      "jsType":"Array",
+      "modelName":"[Deploys]"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.getByParamsdeploys( filter, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"GET",
+    "methodName":"getdeploys",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Deploys"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.getdeploys( deploysId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"PUT",
+    "methodName":"updatedeploys",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Deploys"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiDeploysApi = new TempApi.DeploysApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiDeploysApi.updatedeploys( deploysId, opts, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  }
+]
